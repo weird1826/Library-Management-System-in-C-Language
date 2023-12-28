@@ -5,7 +5,8 @@
 
 # Optimization Plans
 1. Better error handling for unwanted or undesired user inputs.
+2. Increase readability and maintainability.
 
-# Expansion Plans1
+# Expansion Plans
 1. Creating a log in page for librarian
 2. Try to build a GUI for the project using GTK Toolkit.
