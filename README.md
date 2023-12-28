@@ -50,3 +50,16 @@ When a borrower returns a book, the book can be added back to the shelf by speci
 2. Book Name
 
 - The program will check the issueHolderDBS.txt for such entry, and if it exists, it will proceed to delete that entry by file swapping and rewriting methods.
+- When the book is returned, 1 is added to its stock in the bookInfo.txt file.
+
+### >> Restocking a book
+You can restock a book by specifying the following information:
+1. Book Name
+2. Restock Quantity
+
+- The program will first check whether a book with that specified name exists in the database or not.
+- If it exists, it will then proceed to restock it.
+- The restock amount will get added to the stock amount of that book in bookRecords.txt file.
+
+Note that restocking a book is different from returing a borrowed book.
+- Use restock feature when the book is already existing in the database, and is not a completely new one for your library.
